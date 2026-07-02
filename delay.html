@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>stayslow</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="delay-view">
+    <main class="shell">
+      <section class="panel">
+        <p class="eyebrow">stayslow</p>
+        <h1>Wait before opening this site</h1>
+        <p id="siteLine" class="site-line"></p>
+        <div class="timer" aria-live="polite">
+          <span id="countdown">15</span>
+          <span>seconds</span>
+        </div>
+        <p id="note" class="note"></p>
+        <p id="target" class="target"></p>
+        <p class="professional-note">lets keep it professional</p>
+        <nav class="friendly-links" aria-label="Useful alternatives">
+          <a href="https://drive.google.com/">Google Drive</a>
+          <a href="https://www.overleaf.com/">Overleaf</a>
+          <a href="https://scholar.google.com/">Google Scholar</a>
+          <a href="https://kanbanflow.com/">KanbanFlow</a>
+        </nav>
+      </section>
+    </main>
+    <script src="shared.js"></script>
+    <script src="delay.js"></script>
+  </body>
+</html>
